@@ -95,8 +95,8 @@ development workflow
    ::
 
       export GO111MODULE=on
-      export GOPATH=/home/user/gopath
-      export GOROOT=/home/user/code/go
+      export GOPATH=$HOME/gopath
+      export GOROOT=$HOME/code/go
 
 2. Checkout the latest master branch of the component you
    are interested in building:
@@ -280,7 +280,7 @@ Exercising Katzenpost with Kimchi
 * https://github.com/katzenpost/kimchi.git
 
 Kimchi is NOT a replacement for writing unit tests!
-All new code submitions MUST have unit tests.
+All new code submissions MUST have unit tests.
 
 Kimchi does not actually perform any tests per se. However it can be
 used to exercise your code in order to determine if it works
